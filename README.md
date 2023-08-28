@@ -28,7 +28,7 @@ http://localhost:8081/redis/jsonSet?key={keyId}&paths={paths}&value={value}
 - To query json object fields
   http://localhost:8081/redis/jsonFind?index={index}&query=@{field}:{searchQuery}
 - Example
-  http://localhost:8081/redis/jsonFind?index=users_index&query=@name:%27@name:bil*%27
+  http://localhost:8081/redis/jsonFind?index=users_index&query=%27@name:bil*%27
 
 - To Dump all keys in redis database
   http://localhost:8081/redis/keys
