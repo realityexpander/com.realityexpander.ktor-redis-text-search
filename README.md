@@ -15,20 +15,23 @@ Start the Ktor server:
 In Browser:
 
 - To get json object in redis database
-http://localhost:8081/redis/jsonGet?key={keyId}&paths={paths}
+  http://localhost:8081/redis/jsonGet?key={keyId}&paths={paths}
 - Example:
-http://localhost:8081/redis/jsonGet?key=user:1&paths=$
-http://localhost:8081/redis/jsonGet?key=user:1&paths=.name
+  http://localhost:8081/redis/jsonGet?key=user:1&paths=$
+  http://localhost:8081/redis/jsonGet?key=user:1&paths=.name
 
 - To set json object in redis database
 http://localhost:8081/redis/jsonSet?key={keyId}&paths={paths}&value={value}
 - Example
-http://localhost:8081/redis/jsonGet?key=user:1&paths=$.name&value="Jimmy"
+  http://localhost:8081/redis/jsonGet?key=user:1&paths=$.name&value=%22Jimmy%22
 
 - To query json object fields
-http://localhost:8081/redis/jsonFind?index={index}&query=@{field}:{searchQuery}
+  http://localhost:8081/redis/jsonFind?index={index}&query=@{field}:{searchQuery}
 - Example
-http://localhost:8081/redis/jsonFind?index=users_index&query=@name:bil*
+  http://localhost:8081/redis/jsonFind?index=users_index&query=@name:%27@name:bil*%27
 
 - To Dump all keys in redis database
-http://localhost:8081/redis/keys
+  http://localhost:8081/redis/keys
+
+
+  
