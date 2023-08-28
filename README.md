@@ -23,7 +23,7 @@ In Browser:
 - To set json object in redis database
   - http://localhost:8081/redis/jsonSet?key={keyId}&paths={paths}&value={value}
   - Example
-  - http://localhost:8081/redis/jsonGet?key=user:1&paths=$.name&value=%22Jimmy%22
+  - http://localhost:8081/redis/jsonSet?key=user:1&paths=$.name&value=%22Jimmy%22
 
 - To query json object fields
   - http://localhost:8081/redis/jsonFind?index={index}&query=@{field}:{searchQuery}
