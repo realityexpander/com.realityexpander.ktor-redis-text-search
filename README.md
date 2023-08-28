@@ -16,18 +16,18 @@ In Browser:
 
 - To get json object in redis database
   - http://localhost:8081/redis/jsonGet?key={keyId}&paths={paths}
-- Example:
+  - Example:
   - http://localhost:8081/redis/jsonGet?key=user:1&paths=$
   - http://localhost:8081/redis/jsonGet?key=user:1&paths=.name
 
 - To set json object in redis database
   - http://localhost:8081/redis/jsonSet?key={keyId}&paths={paths}&value={value}
-- Example
+  - Example
   - http://localhost:8081/redis/jsonGet?key=user:1&paths=$.name&value=%22Jimmy%22
 
 - To query json object fields
   - http://localhost:8081/redis/jsonFind?index={index}&query=@{field}:{searchQuery}
-- Example
+  - Example
   - http://localhost:8081/redis/jsonFind?index=users_index&query=%27@name:bil*%27
 
 - To Dump all keys in redis database
