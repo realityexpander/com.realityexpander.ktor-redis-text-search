@@ -4,6 +4,17 @@ Shows how to use Redis with Ktor and Kotlin to perform Json full text searches
 
 https://stackoverflow.com/questions/76973632/how-to-use-redis-with-ktor-to-do-text-searches-with-json-data-types/76973857#76973857
 
+This assumes you have `redis-stack` already installed & running on your machine. Here’s a quick start:
+
+```
+# in terminal:
+
+brew tap redis-stack/redis-stack
+brew install redis-stack
+redis-stack-server
+```
+
+Note: redis-stack-servermust be running for the Ktor App to work.
 
 ### Start the Ktor server, and you can use any browser (or Postman) to do the following commands:
 
