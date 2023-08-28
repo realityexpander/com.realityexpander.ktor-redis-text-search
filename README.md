@@ -14,7 +14,7 @@ brew install redis-stack
 redis-stack-server
 ```
 
-Note: redis-stack-servermust be running for the Ktor App to work.
+Note: `redis-stack-server` must be running for the Ktor App to work.
 
 ### Start the Ktor server, and you can use any browser (or Postman) to do the following commands:
 
