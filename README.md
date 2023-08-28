@@ -1,4 +1,3 @@
-# com.realityexpander.ktor-redis-text-search
 ## Ktor Redis Text Search
 
 Shows how to use Redis with Ktor and Kotlin to perform Json full text searches
